@@ -2,12 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Upload from './Upload';
+import RadarChart from './RadarChart';
 import reportWebVitals from './reportWebVitals';
+import AIgenerated from './AIgenerated';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Upload/> */}
+    {/* <App /> */}
+    {/* <RadarChart/> */}
+    {/* <AIgenerated/> */}
   </React.StrictMode>
 );
 
